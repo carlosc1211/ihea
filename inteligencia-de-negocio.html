@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IHEA - Intituto Hanke de Economia Aplicada</title>
+
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+ <!-- Favicon-->
+
+ <link rel="icon" href="favicon.png" type="image/gif" >
+
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/ihea/ihea_nuevo.png" style="height: 50px"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="somos.html">Quiénes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="cursos.html">Publicaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="linea_investigacion.html">Investigación</a>
+          </li>
+          <!--li class="dropdown">
+            <a href="#" class="nav-link page-scroll" data-toggle="dropdown" >
+                Reportes 
+            </a>
+            <ul class="dropdown-menu" style="background-color:#3509d3;  text-align:center;color: #fff">
+                <li ><a href="energia.html">Energía</a></li>
+                <li><a href="agricola.html">Agricolas</a></li>
+                <li><a href="metales.html">Metales</a></li>
+            </ul>
+        </li-->
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="eventos.html">Eventos</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+  <!--Modal box-->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content no 1-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center form-title">Login</h4>
+        </div>
+        <div class="modal-body padtrbl">
+
+          <div class="login-box-body">
+            <p class="login-box-msg">Sign in to start your session</p>
+            <div class="form-group">
+              <form name="" id="loginForm">
+                <div class="form-group has-feedback">
+                  <!----- username -------------->
+                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                  <!----- password -------------->
+                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="checkbox icheck">
+                      <label>
+                                <input type="checkbox" id="loginrem" > Remember Me
+                              </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/ Modal box-->
+  
+  <!-- inteligencia de mercado-->
+  
+  <section id="work-shop" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <!--div class="header-section text-center">
+          <h2>Upcoming Workshop</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div-->
+        <div class="icon-text">
+            <h1 style="text-align: center;"><font style="color:#005eb8; ">Inteligencia de Mercado</h1></font>
+            <p style="text-align: center;">Nuestro objetivo es facilitar información 
+              precisa sobre la tendencia actual del mercado agrícola, permitiendo
+               al cliente tomar mejores decisiones en su actividad comercial.
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <!--div class="icon-box">
+              <i class="fa fa-html5 color-green"></i>
+            </div-->
+            <div class="icon-text">
+                <h4>Energía</h4>
+                <img src="img/ihea/imagenes/electricidad.jpg" style="width: 100%">
+               
+                  <div class="controls text-center" style="padding:18px">
+                    
+                    <a href="energia.html" class="filter active btn btn-common" data-filter="all">
+                      VER MÁS
+                    </a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <!--div class="icon-box">
+              <i class="fa fa-css3 color-green"></i>
+            </div-->
+            <div class="icon-text">
+                <h4>Agricultura</h4>
+                <img src="img/ihea/imagenes/agricultura1.jpg" style="width: 100%">
+               
+                  <div class="controls text-center"  style="padding:18px">
+                    <a href="agricola.html" class="filter active btn btn-common" data-filter="all">
+                      VER MÁS
+                    </a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <!--div class="icon-box">
+              <i class="fa fa-joomla color-green"></i>
+            </div-->
+            <div class="icon-text">
+                <h4>Metales</h4>
+                <img src="img/ihea/imagenes/metales1.jpg" style="width: 100%">
+               
+              
+               
+                <div class="controls text-center" style="padding:18px">
+                  <a href="metales.html" class="filter active btn btn-common" data-filter="all">
+                    VER MÁS
+                  </a>
+
+                <br>
+                
+                
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- inteligencia de mercado-->
+  
+  <!--Contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <!--div class="header-section text-center">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div-->
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-4 col-sm-6">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" class="form-control form" id="name" placeholder="Apellido" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                  <input type="text" name="name" class="form-control form" id="name" placeholder="Telefono" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="col-xs-12" style="text-align:center">
+                  <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">ENVIAR</button>
+                </div>
+          </div>
+          <!--/ Twiter-->
+          <div class="col-md-4 col-sm-6">
+            <div class="form-group">
+                <a class="twitter-timeline" data-width="500" data-height="600" href="https://twitter.com/InstitutoHEA?ref_src=twsrc%5Etfw">Tweets by InstitutoHEA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+
+           <!--/ Informacion de contacto-->
+          <div class="col-md-4 col-sm-6">
+              <div class="form-group">
+                <h1 id="titulo_banner">Contáctanos</h1>
+                <p>Dirección: Avenida 138, Edificio Tarbes, planta baja , Local L1, Valencia, Carabobo, Venezuela.</p>
+                <p>Email: info@ihea.org.ve</p>
+                <!--textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea-->
+              </div>
+            </div>
+          
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Contact-->
+  <!--Footer-->
+  <footer id="footer" class="footer1">
+    
+    <div class="container text-center">
+        <h2>Siguenos en:</h2>
+      <ul class="social-links">
+        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+        <!--li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li-->
+        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+      </ul>
+      ©2018 Copyright © 2016. All Rights Reserved
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
+        -->
+        Designed by <a href="https://grupo-merino.com/" target="blanck">Grupo Merino</a>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+
+
+
+
+  
+</body>
+
+</html>
